@@ -1,0 +1,59 @@
+FUNCTION Z_LOG_WEBSERVICE .
+*"--------------------------------------------------------------------
+*"*"Interface local:
+*"  IMPORTING
+*"     REFERENCE(P_URL) TYPE  STRING
+*"     REFERENCE(P_MSG) TYPE  CHAR4
+*"     REFERENCE(P_TIPO) TYPE  CHAR4
+*"--------------------------------------------------------------------
+*  TYPES: BEGIN OF TY_ZLOG0001,
+*          MANDT      TYPE ZLOG0001-MANDT,
+*          HORA       TYPE ZLOG0001-HORA,
+*          TIPO       TYPE ZLOG0001-TIPO,
+*          USUARIO    TYPE ZLOG0001-USUARIO,
+*          PROGRAMA   TYPE ZLOG0001-PROGRAMA,
+*          DATA       TYPE ZLOG0001-DATA,
+*          MSGNR      TYPE ZLOG0001-MSGNR,
+*          IP_ADDRESS TYPE ZLOG0001-IP_ADDRESS,
+*          DEPARTMENT TYPE ZLOG0001-DEPARTMENT,
+*          URL        TYPE ZLOG0001-URL,
+*         END OF TY_ZLOG0001.
+*
+*
+*  DATA: WA_ZLOG0001  TYPE TY_ZLOG0001,
+*        P_ADDRESS    TYPE CHAR69,
+*        WA_USER_ADDR TYPE USER_ADDR.
+*
+*  IF NOT ( P_URL IS INITIAL ).
+*
+*    CALL FUNCTION 'ZGET_IP_ADDRESS'
+*      IMPORTING
+*        ZIP_ADDRESS = P_ADDRESS.
+*
+*    SELECT SINGLE * FROM USER_ADDR
+*      INTO WA_USER_ADDR
+*      WHERE BNAME EQ SY-UNAME.
+*
+*    WA_ZLOG0001-MANDT      = SY-MANDT.
+*    WA_ZLOG0001-HORA       = SY-TIMLO.
+*    WA_ZLOG0001-TIPO       = P_TIPO.
+*    WA_ZLOG0001-USUARIO    = SY-UNAME.
+*    WA_ZLOG0001-PROGRAMA   = SY-CPROG.
+*    WA_ZLOG0001-DATA       = SY-DATLO.
+*    WA_ZLOG0001-MSGNR      = P_MSG.
+*    WA_ZLOG0001-IP_ADDRESS = P_ADDRESS.
+*    WA_ZLOG0001-DEPARTMENT = WA_USER_ADDR-DEPARTMENT.
+*    WA_ZLOG0001-URL        = P_URL.
+*
+*    IF NOT ( WA_ZLOG0001 IS INITIAL ).
+*      INSERT INTO ZLOG0001 VALUES WA_ZLOG0001.
+*      IF ( SY-SUBRC EQ 0 ).
+*        COMMIT WORK.
+*      ELSE.
+*        ROLLBACK WORK.
+*      ENDIF.
+*    ENDIF.
+*
+*  ENDIF.
+
+ENDFUNCTION.

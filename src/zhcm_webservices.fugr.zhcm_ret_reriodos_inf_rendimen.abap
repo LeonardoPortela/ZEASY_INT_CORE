@@ -1,0 +1,23 @@
+FUNCTION ZHCM_RET_RERIODOS_INF_RENDIMEN.
+*"----------------------------------------------------------------------
+*"*"Interface local:
+*"  EXPORTING
+*"     REFERENCE(E_PERIODOS) TYPE  ZHCM_RET_PERIDOS_INF_RENDI_T
+*"----------------------------------------------------------------------
+
+  DATA: LC_DATA_INICIAL	LIKE P0001-BEGDA,
+        WA_PERIODOS     TYPE ZHCM_RET_PERIDOS_INF_RENDI.
+
+  CLEAR: E_PERIODOS.
+
+  SELECT * INTO TABLE @DATA(IT_PA0020)
+    FROM ZHCMT_PA_0020.
+
+  SORT IT_PA0020 DESCENDING BY ANOPR.
+
+  LOOP AT IT_PA0020 INTO DATA(WA_PA0020).
+    WA_PERIODOS-ANOPR = WA_PA0020-ANOPR.
+    APPEND WA_PERIODOS TO E_PERIODOS.
+  ENDLOOP.
+
+ENDFUNCTION.

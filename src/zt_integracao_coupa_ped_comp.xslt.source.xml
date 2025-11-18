@@ -1,0 +1,35 @@
+<?sap.transform simple?>
+<tt:transform xmlns:tt="http://www.sap.com/transformation-templates" xmlns:ddic="http://www.sap.com/abapxml/types/dictionary" xmlns:def="http://www.sap.com/abapxml/types/defined">
+  <tt:root name="ROOT" type="?"/>
+  <tt:root name="ORDER_HEADERS" type="ddic:ZMMT_PEDIDO_COMPRA"/>
+  <tt:template>
+    <order-headers>
+      <tt:loop ref=".ORDER_HEADERS">
+      <order-header>
+          <id tt:value-ref="ID"/>
+          <created_at tt:value-ref="CREATED_AT"/>
+          <po-number tt:value-ref="PO_NUMBER"/>
+          <status tt:value-ref="STATUS"/>
+          <transmission-status tt:value-ref="TRANSMISSION_STATUS"/>
+          <exported tt:value-ref="EXPORTED"/>
+          <requisition-header>
+            <id tt:value-ref="REQUISITION_HEADER.ID"/>
+          </requisition-header>
+          <ship-to-address>
+            <location-code tt:value-ref="SHIP_TO_ADDRESS.LOCATION_CODE"/>
+            <custom-fields>
+              <cnpj tt:value-ref="SHIP_TO_ADDRESS.CUSTOM_FIELDS.CNPJ"/>
+              <ie tt:value-ref="SHIP_TO_ADDRESS.CUSTOM_FIELDS.IE"/>
+              <empresa tt:value-ref="SHIP_TO_ADDRESS.CUSTOM_FIELDS.EMPRESA"/>
+            </custom-fields>
+          </ship-to-address>
+          <supplier>
+            <number tt:value-ref="SUPPLIER.NUMBER"/>
+          </supplier>
+          <payment-term tt:value-ref="PAYMENT_TERM"/>
+          <shipping-term tt:value-ref="SHIPPING_TERM"/>
+          </order-header>
+      </tt:loop>
+    </order-headers>
+  </tt:template>
+</tt:transform>

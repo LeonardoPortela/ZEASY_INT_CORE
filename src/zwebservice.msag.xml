@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZWEBSERVICE</ARBGB>
+    <MASTERLANG>P</MASTERLANG>
+    <STEXT>Classe de Mensagem para o WebService</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWEBSERVICE</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Serviço não encontrado.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWEBSERVICE</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Endereço URL não encontrado.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWEBSERVICE</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Argumento não encontrado.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWEBSERVICE</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>HTTP/HTTPS Communication não ativado, entrar em contato com Basis.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWEBSERVICE</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Erro Interno do SAP, entrar em contato com Basis.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWEBSERVICE</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Usuário e Senha não encontrado para autenticação.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWEBSERVICE</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Ocorreu um erro na estrutura do arquivo XML.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWEBSERVICE</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWEBSERVICE</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Não houve nenhuma rota para atualização.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWEBSERVICE</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Ocorreu um erro ao tentar gravar no banco de dados.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWEBSERVICE</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Valor da cotação não encontrado.</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

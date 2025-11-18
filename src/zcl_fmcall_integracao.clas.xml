@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_FMCALL_INTEGRACAO</CLSNAME>
+    <LANGU>P</LANGU>
+    <DESCRIPT>Abap to JSON</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GERA_ERRO_GERAL</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Provoca Raise com Um Texto!</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GERA_ERRO_GERAL_SYS</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Provoca Raise com Um Texto!</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GERA_ERRO_GERAL</CMPNAME>
+     <SCONAME>ZCX_FMCALL_APP_MOBILE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro de Cargas (Romaneios)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GERA_ERRO_GERAL_SYS</CMPNAME>
+     <SCONAME>ZCX_FMCALL_APP_MOBILE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro de Cargas (Romaneios)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LOGIN</CMPNAME>
+     <SCONAME>E_OUT_LOGIN</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Estrutura de Saída de Login</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LOGIN</CMPNAME>
+     <SCONAME>R_INSTANCE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Abap to JSON</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LOGIN</CMPNAME>
+     <SCONAME>ZCX_FMCALL_APP_MOBILE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro de App Mobile</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LOGOFF</CMPNAME>
+     <SCONAME>R_INSTANCE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Abap to JSON</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LOGOFF</CMPNAME>
+     <SCONAME>ZCX_FMCALL_APP_MOBILE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro de App Mobile</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VALIDA_TOKEN</CMPNAME>
+     <SCONAME>E_OUT_LOGIN</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Estrutura de Saída de Login</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VALIDA_TOKEN</CMPNAME>
+     <SCONAME>R_INSTANCE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Abap to JSON</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VALIDA_TOKEN</CMPNAME>
+     <SCONAME>ZCX_FMCALL_APP_MOBILE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro de App Mobile</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
