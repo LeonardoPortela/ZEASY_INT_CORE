@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZDE_TIPO_PERC</ROLLNAME>
+    <DDLANGUAGE>P</DDLANGUAGE>
+    <DOMNAME>ZDM_TIPO_PERC</DOMNAME>
+    <HEADLEN>24</HEADLEN>
+    <SCRLEN1>08</SCRLEN1>
+    <SCRLEN2>11</SCRLEN2>
+    <SCRLEN3>19</SCRLEN3>
+    <DDTEXT>Tipo do Percurso da Rota</DDTEXT>
+    <REPTEXT>Tipo do Percurso da Rota</REPTEXT>
+    <SCRTEXT_S>Tp.Perc.</SCRTEXT_S>
+    <SCRTEXT_M>Tp.Percurso</SCRTEXT_M>
+    <SCRTEXT_L>Tp.Percurso da Rota</SCRTEXT_L>
+    <DTELMASTER>P</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>
