@@ -1,0 +1,1882 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>ZDM_ID_INTERFACE</DOMNAME>
+    <DDLANGUAGE>P</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000003</LENG>
+    <OUTPUTLEN>000003</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>Id. de Integração de Inteface Integração</DDTEXT>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>001</DOMVALUE_L>
+     <DDTEXT>Integração de Lote</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>002</DOMVALUE_L>
+     <DDTEXT>Integração de Preço</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>003</DOMVALUE_L>
+     <DDTEXT>Integração de Viagem Criada</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>004</DOMVALUE_L>
+     <DDTEXT>Integração de Viagem Aprovar</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>005</DOMVALUE_L>
+     <DDTEXT>Integração de Viagem Rejeitar</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>006</DOMVALUE_L>
+     <DDTEXT>Solicita Ordem de Carregamento OPUS</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>007</DOMVALUE_L>
+     <DDTEXT>Integração de Viagem Ajusta Preço Motorista</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>008</DOMVALUE_L>
+     <DDTEXT>Integração de Viagem Carregar</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>009</DOMVALUE_L>
+     <DDTEXT>Integração de Viagem Carregar - Cancelar</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>010</DOMVALUE_L>
+     <DDTEXT>Integração de Viagem Status</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>011</DOMVALUE_L>
+     <DDTEXT>Integração de Viagem Cancelar</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>012</DOMVALUE_L>
+     <DDTEXT>Integração de Viagem Cancelar Aprovar</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>013</DOMVALUE_L>
+     <DDTEXT>Integração de Viagem Cancelar Rejeitar</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>014</DOMVALUE_L>
+     <DDTEXT>Cancela Ordem de Carregamento OPUS</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>015</DOMVALUE_L>
+     <DDTEXT>Gera NF Writer e Autoriza no GRC</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>016</DOMVALUE_L>
+     <DDTEXT>Cancela NF Writer Autorizada no GRC</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>017</DOMVALUE_L>
+     <DDTEXT>Estornar NF Writer Autorizada no GRC</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>018</DOMVALUE_L>
+     <DDTEXT>Solicita Token</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>019</DOMVALUE_L>
+     <DDTEXT>Integração - Embalagem</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>020</DOMVALUE_L>
+     <DDTEXT>Integração - Energia</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>021</DOMVALUE_L>
+     <DDTEXT>Integração - TraceCotton</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>022</DOMVALUE_L>
+     <DDTEXT>Gera Documento Contábil</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>023</DOMVALUE_L>
+     <DDTEXT>Estorna Documento Contábil</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>024</DOMVALUE_L>
+     <DDTEXT>Consulta Documento Contábil</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>025</DOMVALUE_L>
+     <DDTEXT>Integração de Viagem Descarregar</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>026</DOMVALUE_L>
+     <DDTEXT>Kuhlmann Autenticação</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>027</DOMVALUE_L>
+     <DDTEXT>Kuhlmann Busca Análises de HVI</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>028</DOMVALUE_L>
+     <DDTEXT>Kuhlmann Busca Clientes</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>029</DOMVALUE_L>
+     <DDTEXT>Kuhlmann Busca Análises de HVI - Confirma Recebimento</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0030</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>030</DOMVALUE_L>
+     <DDTEXT>Kuhlmann Busca Análises de HVI - Recuperação</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0031</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>031</DOMVALUE_L>
+     <DDTEXT>Pedido de Compra - Pesquisa Pedidos de Compra</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0032</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>032</DOMVALUE_L>
+     <DDTEXT>Recebimento de Fatura de Combustivel</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0033</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>033</DOMVALUE_L>
+     <DDTEXT>Integração SAP HCM x ATS LOG</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0034</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>034</DOMVALUE_L>
+     <DDTEXT>Integração JOB - TraceCotton</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0035</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>035</DOMVALUE_L>
+     <DDTEXT>Integração Rondonline</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0036</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>036</DOMVALUE_L>
+     <DDTEXT>Integração KONVIVA</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0037</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>037</DOMVALUE_L>
+     <DDTEXT>Integração de Viagem Aprovar Carregamento</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0038</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>038</DOMVALUE_L>
+     <DDTEXT>Integração de Viagem Upload Autorizar</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0039</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>039</DOMVALUE_L>
+     <DDTEXT>Integração de Viagem Upload Executar</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0040</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>040</DOMVALUE_L>
+     <DDTEXT>Integração TraceCotton Contratos Vendas Algodão</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0041</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>041</DOMVALUE_L>
+     <DDTEXT>Integração de Viagem Upload Confirmar</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0042</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>042</DOMVALUE_L>
+     <DDTEXT>Integração RS Data</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0043</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>043</DOMVALUE_L>
+     <DDTEXT>Integração - Improvefy - Jano</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0044</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>044</DOMVALUE_L>
+     <DDTEXT>Integração SoftExpert - Sinistro veículos</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0045</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>045</DOMVALUE_L>
+     <DDTEXT>Integração DOCK Bank</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0046</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>046</DOMVALUE_L>
+     <DDTEXT>Integração PM - Comboio - Abastecimento</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0047</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>047</DOMVALUE_L>
+     <DDTEXT>Integração COUPA - Envio de Requisição de Compras</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0048</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>048</DOMVALUE_L>
+     <DDTEXT>Integração COUPA - LookUp Values</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0049</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>049</DOMVALUE_L>
+     <DDTEXT>Integração COUPA - status Usuário</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0050</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>050</DOMVALUE_L>
+     <DDTEXT>Integração COUPA - taxa de câmbio</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0051</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>051</DOMVALUE_L>
+     <DDTEXT>Integração COUPA - Envio de Pedido de Compras</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0052</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>052</DOMVALUE_L>
+     <DDTEXT>Integração COUPA - Envio de Grp de Mercadorias</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0053</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>053</DOMVALUE_L>
+     <DDTEXT>Integração COUPA - Recibos</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0054</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>054</DOMVALUE_L>
+     <DDTEXT>Integração Coupa - Fornecedores</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0055</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>055</DOMVALUE_L>
+     <DDTEXT>Integração Coupa - Fornecedores - Obter ID por CNPJ</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0056</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>056</DOMVALUE_L>
+     <DDTEXT>Integração Coupa - Fornecedores - Obter ID por CPF</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0057</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>057</DOMVALUE_L>
+     <DDTEXT>Integração COUPA - Assinatura Digital</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0058</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>058</DOMVALUE_L>
+     <DDTEXT>Integração BRy - Assinatura Digital - Outbound</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0059</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>059</DOMVALUE_L>
+     <DDTEXT>Integração para obter lookup ID - Coupa</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0060</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>060</DOMVALUE_L>
+     <DDTEXT>Integração para obter token Coupa</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0061</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>061</DOMVALUE_L>
+     <DDTEXT>Integração SE - Compensação SCP</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0062</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>062</DOMVALUE_L>
+     <DDTEXT>Integração BRy - Assinatura Digital - Inbound</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0063</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>063</DOMVALUE_L>
+     <DDTEXT>Integração COUPA - Envio de material</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0064</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0065</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>064</DOMVALUE_L>
+     <DDTEXT>Integração Coupa - Orçamento</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0066</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>065</DOMVALUE_L>
+     <DDTEXT>Integração Coupa - Orçamento - Requisição</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0067</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>066</DOMVALUE_L>
+     <DDTEXT>Integração Coupa - Orçamento - Pedido</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0068</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>067</DOMVALUE_L>
+     <DDTEXT>Integração Coupa - Envio - FTP</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0069</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>068</DOMVALUE_L>
+     <DDTEXT>Integração Coupa - Envio de recibos</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0070</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>070</DOMVALUE_L>
+     <DDTEXT>Integração Coupa - Obter pedido</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0071</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>071</DOMVALUE_L>
+     <DDTEXT>Estorno doc contabil</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0072</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>072</DOMVALUE_L>
+     <DDTEXT>Integração Realizado Frete - Sigam</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0073</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>073</DOMVALUE_L>
+     <DDTEXT>Cancelamento ordem carregamento</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0074</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>074</DOMVALUE_L>
+     <DDTEXT>Integração DESENVOLVE - Token</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0075</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>075</DOMVALUE_L>
+     <DDTEXT>Integração DESENVOLVE - Envio Usuário</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0076</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>076</DOMVALUE_L>
+     <DDTEXT>Integração DESENVOLVE - Envio Organização</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0077</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>077</DOMVALUE_L>
+     <DDTEXT>Integração permissão usuários SAP-MOBILE</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0078</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>078</DOMVALUE_L>
+     <DDTEXT>Integração consulta ACTS - Fardinhos - Tracecotton</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0079</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>079</DOMVALUE_L>
+     <DDTEXT>Integração Agriq Receita - INSUMOS</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0080</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>080</DOMVALUE_L>
+     <DDTEXT>Integração  SAP x SE - Envio Informações NF</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0081</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>081</DOMVALUE_L>
+     <DDTEXT>Integração SAP X MOBILE - Atualiza status da nota</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0082</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>082</DOMVALUE_L>
+     <DDTEXT>Integração iPortSolutions</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0083</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>083</DOMVALUE_L>
+     <DDTEXT>Integração criação e modificação NOTA - SAPxMOB</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0084</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>084</DOMVALUE_L>
+     <DDTEXT>Integração WebSempre - Portal RH</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0085</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>085</DOMVALUE_L>
+     <DDTEXT>Integração Troca Nota - Itinerario</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0086</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>086</DOMVALUE_L>
+     <DDTEXT>Integração criação e modificação ordem SAPxMOBMAN</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0087</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>087</DOMVALUE_L>
+     <DDTEXT>Integração Data Share</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0088</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>088</DOMVALUE_L>
+     <DDTEXT>Integração Plan Produce</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0089</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>089</DOMVALUE_L>
+     <DDTEXT>Integração SIS</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0090</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>000</DOMVALUE_L>
+     <DDTEXT>Interação Teste API</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0091</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>090</DOMVALUE_L>
+     <DDTEXT>Integração Amaggi Play</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0092</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>091</DOMVALUE_L>
+     <DDTEXT>Integração Cancelamento Documento Fatura</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0093</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>092</DOMVALUE_L>
+     <DDTEXT>Integração thunders_operations</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0094</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>093</DOMVALUE_L>
+     <DDTEXT>Integração thunders_conciliations</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0095</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>094</DOMVALUE_L>
+     <DDTEXT>Integração thunders_TOKEN</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0096</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>095</DOMVALUE_L>
+     <DDTEXT>Estrategia de Aprovação</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0097</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>096</DOMVALUE_L>
+     <DDTEXT>Sigam Hedge Consultar</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0098</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>097</DOMVALUE_L>
+     <DDTEXT>Sigam Hedge Reverter</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0099</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>098</DOMVALUE_L>
+     <DDTEXT>Integração Ordem Carregamento OPUS - Inbound</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0100</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>099</DOMVALUE_L>
+     <DDTEXT>Integração Parametros Produtor Rural OPUS - Inbound</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0101</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>100</DOMVALUE_L>
+     <DDTEXT>Integração Parametros Tipo Entrada Sigam - Inbound</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0102</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>101</DOMVALUE_L>
+     <DDTEXT>Integração Parametros Tipo Entrada CFOP Sigam - Inbound</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0103</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>102</DOMVALUE_L>
+     <DDTEXT>Integração Parametros Tipo Entrada Filial Sigam - Inbound</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0104</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>103</DOMVALUE_L>
+     <DDTEXT>Integração Parametros Empresas Classificadoras - Inbound</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0105</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>104</DOMVALUE_L>
+     <DDTEXT>Integração Parametros Exceção Funrural - Inbound</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0106</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>105</DOMVALUE_L>
+     <DDTEXT>Integração Parametros Local de Estoque - Inbound</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0107</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>106</DOMVALUE_L>
+     <DDTEXT>Integração Parametros Permissão Local de Estoque - Inbound</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0108</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>107</DOMVALUE_L>
+     <DDTEXT>Integração Descarga Ferrovia OPUS - Inbound</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0109</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>108</DOMVALUE_L>
+     <DDTEXT>Integração Parametros Impostos SIGAM - Inbound</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0110</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>109</DOMVALUE_L>
+     <DDTEXT>Integração Insumos x SIGAM</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0111</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>110</DOMVALUE_L>
+     <DDTEXT>Integração Carga Saida OPUS - Inbound</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0112</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>111</DOMVALUE_L>
+     <DDTEXT>Integração Due antecipada SLE</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0113</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>112</DOMVALUE_L>
+     <DDTEXT>Integração DU-e x Comex - Outbound</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0114</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>113</DOMVALUE_L>
+     <DDTEXT>Integração Solicita Modificação DU-e Comex - Outbound</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0115</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>114</DOMVALUE_L>
+     <DDTEXT>Integração Consulta Parametros Webservice - Inbound</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0116</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>115</DOMVALUE_L>
+     <DDTEXT>Integração Consulta Processamento ZIB Contabil - Inbound</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0117</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>116</DOMVALUE_L>
+     <DDTEXT>Integração Funcionarios Legados - Outbound</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0118</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>117</DOMVALUE_L>
+     <DDTEXT>Integração Consulta Documento Contabil - Inbound</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0119</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>118</DOMVALUE_L>
+     <DDTEXT>Integração status bloqueio romaneio</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0120</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>119</DOMVALUE_L>
+     <DDTEXT>Integração Romaneio - Inbound</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0121</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>120</DOMVALUE_L>
+     <DDTEXT>Integração Consultar Permissão Contabilização</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0122</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>121</DOMVALUE_L>
+     <DDTEXT>Integração consultar proces. interface estorno entrada estoq</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0123</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>122</DOMVALUE_L>
+     <DDTEXT>Integração Consultar Processamento Interface E. Est - Inboun</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0124</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>123</DOMVALUE_L>
+     <DDTEXT>Integração Consultar Material SAP - Inbound</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0125</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>124</DOMVALUE_L>
+     <DDTEXT>Integração Consultar Solicitação Embarque Insumos - Inbound</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0126</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>125</DOMVALUE_L>
+     <DDTEXT>Integração Sobra Material para OPUS - Outbound</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0127</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>126</DOMVALUE_L>
+     <DDTEXT>Integração Consultar Invoices - Contas a Pagar</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0128</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>127</DOMVALUE_L>
+     <DDTEXT>Integração Consulta Fornecedor/Cliente SAP</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0129</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>128</DOMVALUE_L>
+     <DDTEXT>Integração dados mestre equipamento mobman</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0130</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>129</DOMVALUE_L>
+     <DDTEXT>Integração Consultar Taxa Cambio</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0131</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>130</DOMVALUE_L>
+     <DDTEXT>Integração Consultar Roadmap MTM</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0132</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>131</DOMVALUE_L>
+     <DDTEXT>Integração Consultar Processamento Criação Pedido Grãos</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0133</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>132</DOMVALUE_L>
+     <DDTEXT>Integração Consultar Processamento Movimento Estoque</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0134</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>133</DOMVALUE_L>
+     <DDTEXT>Integração local de instalação mobman</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0135</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>134</DOMVALUE_L>
+     <DDTEXT>Integração Centro de trabalho mobman</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0136</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>135</DOMVALUE_L>
+     <DDTEXT>Integração de materiais mobman</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0137</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>136</DOMVALUE_L>
+     <DDTEXT>Integração Consultar Consultar Documento Material</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0138</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>137</DOMVALUE_L>
+     <DDTEXT>Integração Consultar Processamento Fardo Algodao</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0139</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>138</DOMVALUE_L>
+     <DDTEXT>Integração Consultar Dados Pedido SAP</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0140</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>139</DOMVALUE_L>
+     <DDTEXT>Integração para envio ZSDT0051 Legados</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0141</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>140</DOMVALUE_L>
+     <DDTEXT>API integração p/ inserção de dados tabela ZFIT0146</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0142</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>141</DOMVALUE_L>
+     <DDTEXT>API Inbound p/ Bloqueio Parceiro com Restrição</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0143</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>142</DOMVALUE_L>
+     <DDTEXT>API para Consultar Parametros Consulta Fardos</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0144</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>143</DOMVALUE_L>
+     <DDTEXT>API para Consultar Grupo Comprador</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0145</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>144</DOMVALUE_L>
+     <DDTEXT>API Inbound p/ Dados Financiamento</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0146</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>145</DOMVALUE_L>
+     <DDTEXT>API Inbound p/ Depara Miro x Workflow SE</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0147</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>146</DOMVALUE_L>
+     <DDTEXT>API Inbound p/ Evento S-1250 EFD</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0148</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>147</DOMVALUE_L>
+     <DDTEXT>Integração Consultar Processamento Contrato Corporativo</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0149</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>148</DOMVALUE_L>
+     <DDTEXT>API para Consultar Documento Fatura(MIRO)</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0150</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>149</DOMVALUE_L>
+     <DDTEXT>API para Consultar Moeda</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0151</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>150</DOMVALUE_L>
+     <DDTEXT>API para Consultar Dados User</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0152</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>151</DOMVALUE_L>
+     <DDTEXT>API para Consultar Mestre Bancos</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0153</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>152</DOMVALUE_L>
+     <DDTEXT>API para Consultar Contas Razao</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0154</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>153</DOMVALUE_L>
+     <DDTEXT>API para Consultar Dados Bloomberg</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0155</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>154</DOMVALUE_L>
+     <DDTEXT>Integração Consultar Mensagem Outbound</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0156</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>155</DOMVALUE_L>
+     <DDTEXT>Integração Consultar Documento Fiscal</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0157</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>156</DOMVALUE_L>
+     <DDTEXT>Integração IB - Ecommerce - Cliente</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0158</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>157</DOMVALUE_L>
+     <DDTEXT>API para Consultar Treinamento</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0159</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>158</DOMVALUE_L>
+     <DDTEXT>Consultar Dados Centro Custo</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0160</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>159</DOMVALUE_L>
+     <DDTEXT>Integração Consultar Tipo Venda</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0161</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>160</DOMVALUE_L>
+     <DDTEXT>Consulta Solicitaçao Aprov. Investimento</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0162</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>161</DOMVALUE_L>
+     <DDTEXT>API para Consultar Dados Mestre Serviço</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0163</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>162</DOMVALUE_L>
+     <DDTEXT>Consultar Simulador Venda</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0164</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>163</DOMVALUE_L>
+     <DDTEXT>Consultar Reserva Material</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0165</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>164</DOMVALUE_L>
+     <DDTEXT>API Inbound p/ Adiantamento Produtor Compensação</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0166</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>165</DOMVALUE_L>
+     <DDTEXT>Envio Dados Imobilizados Legados</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0167</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>166</DOMVALUE_L>
+     <DDTEXT>Create ordem PM ( SE x SAP )</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0168</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>167</DOMVALUE_L>
+     <DDTEXT>API para disponibilização de dados na criação da SLE</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0169</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>168</DOMVALUE_L>
+     <DDTEXT>Trace Cotton - Algodão</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0170</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>169</DOMVALUE_L>
+     <DDTEXT>Token Ecommerce</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0171</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>170</DOMVALUE_L>
+     <DDTEXT>Envio de XML NFE E-Commerce</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0172</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>171</DOMVALUE_L>
+     <DDTEXT>Integração OB - Ecommerce - Cliente</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0173</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>172</DOMVALUE_L>
+     <DDTEXT>Consulta Suspensão / Advertência - 0030</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0174</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>173</DOMVALUE_L>
+     <DDTEXT>Integração API Envio Balancete Accountfy</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0175</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>174</DOMVALUE_L>
+     <DDTEXT>Integração API Envio Balancete Accountfy Token</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0176</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>175</DOMVALUE_L>
+     <DDTEXT>Integração API conferencia Fiscal ( ZCONF )</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0177</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>176</DOMVALUE_L>
+     <DDTEXT>Integração API ordens de orçamento MOBMAN</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0178</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>177</DOMVALUE_L>
+     <DDTEXT>Integração API - Active Directory - SAP AD</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0179</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>178</DOMVALUE_L>
+     <DDTEXT>Integração API - Cons.requisição  SAP x Coupa</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0180</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>179</DOMVALUE_L>
+     <DDTEXT>Integração API - Remuneração Func. Op. Dados Cadastrais</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0181</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>180</DOMVALUE_L>
+     <DDTEXT>Integração API - Remuneração Func. Op. Advertencias</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0182</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>181</DOMVALUE_L>
+     <DDTEXT>Integração API - Remuneração Func. Op. Faltas</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0183</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>182</DOMVALUE_L>
+     <DDTEXT>Integração API - Remuneração Func. Op. Jornada</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0184</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>183</DOMVALUE_L>
+     <DDTEXT>API - SIS INDICADORES</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0185</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>184</DOMVALUE_L>
+     <DDTEXT>GET DATA LIM</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0186</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>185</DOMVALUE_L>
+     <DDTEXT>Integração Consultar OV Sigam</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0187</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>186</DOMVALUE_L>
+     <DDTEXT>Integração INB busca jornada usuarios</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0188</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>187</DOMVALUE_L>
+     <DDTEXT>Integração Acerto Insumos SIGAM</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0189</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>188</DOMVALUE_L>
+     <DDTEXT>Integração Consultar Ordem</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0190</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>189</DOMVALUE_L>
+     <DDTEXT>Integração envia equipe MOBMAN</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0191</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>190</DOMVALUE_L>
+     <DDTEXT>CONSULTA_FUNCIONARIO</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0192</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>191</DOMVALUE_L>
+     <DDTEXT>REL_ZFI0098</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0193</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>192</DOMVALUE_L>
+     <DDTEXT>Integração SAP x Coupa consulta formulario</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0194</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>193</DOMVALUE_L>
+     <DDTEXT>Integração - Konviva - Usuários</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0195</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>194</DOMVALUE_L>
+     <DDTEXT>Integração - Konviva - Cargos</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0196</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>195</DOMVALUE_L>
+     <DDTEXT>Integração - Konviva - Setores</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0197</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>196</DOMVALUE_L>
+     <DDTEXT>Integração - Konviva - Unidades</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0198</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>197</DOMVALUE_L>
+     <DDTEXT>Integração - PM Apontamento</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0199</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>198</DOMVALUE_L>
+     <DDTEXT>Integração - S4H - Consulta de aging</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0200</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>199</DOMVALUE_L>
+     <DDTEXT>Integração - Comprovação redirec. form. lote NF Recusa</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0201</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>200</DOMVALUE_L>
+     <DDTEXT>Criar indicador SIS</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0202</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>201</DOMVALUE_L>
+     <DDTEXT>Consulta dados material</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0203</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>202</DOMVALUE_L>
+     <DDTEXT>Controle de Estoque para auxiliar na baixa dos boletins...</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0204</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>203</DOMVALUE_L>
+     <DDTEXT>Integração SAP ZLES0136 x OPUS</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0205</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>204</DOMVALUE_L>
+     <DDTEXT>Integração - PM Consulta Status e Custo real</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0206</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>205</DOMVALUE_L>
+     <DDTEXT>Integração SAP X COUPA - Busca de SUPPLIER ITEM</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0207</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>206</DOMVALUE_L>
+     <DDTEXT>Integração - PM Apontamento Agro</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0208</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>207</DOMVALUE_L>
+     <DDTEXT>Integração SAP X COUPA - Busca de itens do contrato</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0209</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>208</DOMVALUE_L>
+     <DDTEXT>Integração SAP X SUPERVISÓRIO - Cria ordem</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0210</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>209</DOMVALUE_L>
+     <DDTEXT>Interface Token Trace Cotton</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0211</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>210</DOMVALUE_L>
+     <DDTEXT>Interface desativa ordem do supervisório</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0212</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>211</DOMVALUE_L>
+     <DDTEXT>Interface ativa ordem do supervisório</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0213</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>212</DOMVALUE_L>
+     <DDTEXT>Interface de busca de ordem do supervsório</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0214</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>213</DOMVALUE_L>
+     <DDTEXT>Interface Consulta Fardinhos Trace Cotton</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0215</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>214</DOMVALUE_L>
+     <DDTEXT>Interface RSDATA</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0216</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>215</DOMVALUE_L>
+     <DDTEXT>Interface Inbound Consulta Entradas Algodao Caroco</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0217</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>216</DOMVALUE_L>
+     <DDTEXT>Consulta Sessão Beneficiamento Algodao</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0218</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>217</DOMVALUE_L>
+     <DDTEXT>Consulta Blocos Beneficiamento Algodao</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0219</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>218</DOMVALUE_L>
+     <DDTEXT>Baixa Fardo Trace Cotton</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0220</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>219</DOMVALUE_L>
+     <DDTEXT>Integração SE x SAP</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0221</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>220</DOMVALUE_L>
+     <DDTEXT>Integração Carga OPUS - Inbound</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0222</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>221</DOMVALUE_L>
+     <DDTEXT>Integração Linkana X SAP</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0223</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>222</DOMVALUE_L>
+     <DDTEXT>Obter Token Tributum</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0224</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>223</DOMVALUE_L>
+     <DDTEXT>Consulta adiantamento em aberto para fornecedor</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0225</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>224</DOMVALUE_L>
+     <DDTEXT>Integração XML NF-e/CT-e Tributum</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0226</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>225</DOMVALUE_L>
+     <DDTEXT>Integração sap x coupa enviar anexo requisição compra</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0227</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>226</DOMVALUE_L>
+     <DDTEXT>Integração SAP x SE -&gt; Criar incidente</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0228</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>227</DOMVALUE_L>
+     <DDTEXT>Integração para consultar tipo de imposto da nota no SIGAM</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0229</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>228</DOMVALUE_L>
+     <DDTEXT>Integração para compensar doc fornecedor vindo do SIGAM</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0230</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>229</DOMVALUE_L>
+     <DDTEXT>Mapa de Comprovação de Investimentos</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0231</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>230</DOMVALUE_L>
+     <DDTEXT>Consulta Parametros Transbordo e Local de Entrega</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0232</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>231</DOMVALUE_L>
+     <DDTEXT>Consultar Empresa e Filial para EUDR</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0233</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>232</DOMVALUE_L>
+     <DDTEXT>Endpoint consumo OPUS Crédito</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0234</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>233</DOMVALUE_L>
+     <DDTEXT>Consultar Material para EUDR</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0235</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>234</DOMVALUE_L>
+     <DDTEXT>Validação Dados OV EUDR</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0236</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>235</DOMVALUE_L>
+     <DDTEXT>Validar Entrada FOB OPUS - EUDR</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0237</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>236</DOMVALUE_L>
+     <DDTEXT>Token ATSLOG</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0238</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>237</DOMVALUE_L>
+     <DDTEXT>Recupera Protocolo EUDR</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0239</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>238</DOMVALUE_L>
+     <DDTEXT>ATSLOG - Afastamento - Incluir</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0240</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>239</DOMVALUE_L>
+     <DDTEXT>ATSLOG - Afastamento - Excluir</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0241</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>240</DOMVALUE_L>
+     <DDTEXT>ATSLOG - Motorista - Incluir</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0242</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>241</DOMVALUE_L>
+     <DDTEXT>Obter Token Amaggi Pack</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0243</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>242</DOMVALUE_L>
+     <DDTEXT>API Vencimento Amaggi Pack</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0244</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>243</DOMVALUE_L>
+     <DDTEXT>Integração SAP x SE ( Abertura de chamdo RAS )</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0245</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>244</DOMVALUE_L>
+     <DDTEXT>Integração SE x SAP ( Remover acesso perfil usuario no SAP )</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0246</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>245</DOMVALUE_L>
+     <DDTEXT>API Consulta Descargas Rodoviárias VLI</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0247</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>246</DOMVALUE_L>
+     <DDTEXT>Token - Consulta Terminais Logone  ( TGG, TEGRAN, UNIDAS )</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0248</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>247</DOMVALUE_L>
+     <DDTEXT>Integração SE X SAP Criação de equipamento</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0249</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>248</DOMVALUE_L>
+     <DDTEXT>Integração SE X SAP Get equipamento</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0250</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>249</DOMVALUE_L>
+     <DDTEXT>Integrração SAP x UOL - Token</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0251</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>250</DOMVALUE_L>
+     <DDTEXT>Integrração SAP x UOL</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0252</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>251</DOMVALUE_L>
+     <DDTEXT>Busca Fatura Energia - Faturamento/Pagamento</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0253</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>252</DOMVALUE_L>
+     <DDTEXT>Busca Fatura Energia - Download Fatura</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0254</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>253</DOMVALUE_L>
+     <DDTEXT>Busca Fatura Energia - Atualiza status Fatura</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0255</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>254</DOMVALUE_L>
+     <DDTEXT>Integração TIP - Cadastrar Viagem</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0256</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>255</DOMVALUE_L>
+     <DDTEXT>Integração TIP - Autorizar Viagem</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0257</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>256</DOMVALUE_L>
+     <DDTEXT>Integração TIP - Cancelar Viagem</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0258</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>257</DOMVALUE_L>
+     <DDTEXT>Integração TIP - Consultar Viagem</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0259</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>258</DOMVALUE_L>
+     <DDTEXT>Integração TIP - Consultar PDF Viagem</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0260</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>259</DOMVALUE_L>
+     <DDTEXT>Integração IB - Consultar ZMM0132</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0261</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>260</DOMVALUE_L>
+     <DDTEXT>ITAU - Boletos</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0262</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>262</DOMVALUE_L>
+     <DDTEXT>ITAU - Cobrança com Vencimento</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0263</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>261</DOMVALUE_L>
+     <DDTEXT>ITAU - Transferencia</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0264</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>263</DOMVALUE_L>
+     <DDTEXT>Integração TIP -Ajustar Viagem</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0265</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>264</DOMVALUE_L>
+     <DDTEXT>Integração Inbound SE x SAP - Consulta dados OV</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0266</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>265</DOMVALUE_L>
+     <DDTEXT>Integração Inbound  Retirada Fertilizantes - MIGO</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0267</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>266</DOMVALUE_L>
+     <DDTEXT>ITAU - Get Cobrança</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0268</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>267</DOMVALUE_L>
+     <DDTEXT>ITAU - BoleCode</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0269</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>268</DOMVALUE_L>
+     <DDTEXT>Integração SAP (folha) x SGSSO (w2O)</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0270</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>269</DOMVALUE_L>
+     <DDTEXT>API - busca comprovantes de pagamento bancário</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0271</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>270</DOMVALUE_L>
+     <DDTEXT>Integracao INDEA - Devolução Agrotoxico</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0272</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>271</DOMVALUE_L>
+     <DDTEXT>Integracao INDEA - Devolucao Sementes</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0273</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>272</DOMVALUE_L>
+     <DDTEXT>Integracao INDEA - Entrada Agrotoxico</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0274</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>273</DOMVALUE_L>
+     <DDTEXT>Integracao INDEA - Entrada Sementes</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0275</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>274</DOMVALUE_L>
+     <DDTEXT>Integracao INDEA - Saida Agrotoxico</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0276</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>275</DOMVALUE_L>
+     <DDTEXT>Integracao INDEA - Saida Sementes</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0277</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>276</DOMVALUE_L>
+     <DDTEXT>Consulta Status Investimentos SYSPHERA</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0278</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>277</DOMVALUE_L>
+     <DDTEXT>Luft Logistics - Confirmação Saida Produto CD</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0279</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>278</DOMVALUE_L>
+     <DDTEXT>Luft Logistics - Aceite Borderô Entrada</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0280</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>279</DOMVALUE_L>
+     <DDTEXT>API para consultar dados perfil de acesso</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0281</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>280</DOMVALUE_L>
+     <DDTEXT>Luft Logistics - Produtos Descarregados - Borderô Entrada</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0282</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>281</DOMVALUE_L>
+     <DDTEXT>API - Comentar IR SAP x SE</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0283</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>282</DOMVALUE_L>
+     <DDTEXT>API - Encerrar IR SAP x SE</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0284</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>283</DOMVALUE_L>
+     <DDTEXT>Luft Logistics - Obter Token</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0285</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>284</DOMVALUE_L>
+     <DDTEXT>Luft Logistics - Criação Pedido Saida</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0286</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>285</DOMVALUE_L>
+     <DDTEXT>Luft Logistics - Envio NFe Entrada</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0287</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>286</DOMVALUE_L>
+     <DDTEXT>Capturar Token - Api Baixa de Usuários</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0288</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>287</DOMVALUE_L>
+     <DDTEXT>Luft Logistics - Envio NF-e Saida</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0289</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>288</DOMVALUE_L>
+     <DDTEXT>Consulta Dados Viagem Carguero</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0290</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>289</DOMVALUE_L>
+     <DDTEXT>Safra Control - Cabeçalho Ordem</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0291</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>290</DOMVALUE_L>
+     <DDTEXT>Safra Control - Contatos</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0292</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>291</DOMVALUE_L>
+     <DDTEXT>Safra Control - Produtos</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0293</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>292</DOMVALUE_L>
+     <DDTEXT>Interace OPUS cadastro de Crédito</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0294</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>293</DOMVALUE_L>
+     <DDTEXT>API para Baixar Imobilizado</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0295</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>294</DOMVALUE_L>
+     <DDTEXT>Safra Control - Criação Carga</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0296</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>295</DOMVALUE_L>
+     <DDTEXT>Safra Control - Cancelamento Carga</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0297</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>296</DOMVALUE_L>
+     <DDTEXT>Safra Control - Carga Entrega</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0298</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>297</DOMVALUE_L>
+     <DDTEXT>Safra Control - Itens da Ordem</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0299</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>298</DOMVALUE_L>
+     <DDTEXT>API Lançamentos de ZGL059 no SE</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0300</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>299</DOMVALUE_L>
+     <DDTEXT>API Consulta NFe SIGAM</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0301</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>300</DOMVALUE_L>
+     <DDTEXT>Obter Token Finanfor</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0302</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>301</DOMVALUE_L>
+     <DDTEXT>Integração Finanfor Movimento - Outbound</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0303</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>302</DOMVALUE_L>
+     <DDTEXT>Safra Control - Tracking - Integração Dados Transporte Carga</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0304</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>303</DOMVALUE_L>
+     <DDTEXT>Luft Logistics - Produtos Carregados - Borderô Saida</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0305</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>304</DOMVALUE_L>
+     <DDTEXT>BRADESCO - Transferencia</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0306</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>305</DOMVALUE_L>
+     <DDTEXT>Safra Control - Tracking - Integração Dados Anexo Carga</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0307</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>306</DOMVALUE_L>
+     <DDTEXT>Safra Control - Tracking - Integração Dados Veiculo Carga</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0308</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>307</DOMVALUE_L>
+     <DDTEXT>API - Comprovante PIX - Bradesco</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0309</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>308</DOMVALUE_L>
+     <DDTEXT>API - PagContas Cons/Trib - Bradesco</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0310</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>309</DOMVALUE_L>
+     <DDTEXT>API - PagContas Consulta - Cons/Trib - Bradesco</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0311</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>310</DOMVALUE_L>
+     <DDTEXT>Consulta Data Contratacao Frete Carguero</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
