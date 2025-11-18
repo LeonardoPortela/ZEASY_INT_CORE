@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_INTEGRACAO_INBOUND</CLSNAME>
+    <LANGU>P</LANGU>
+    <DESCRIPT>Interface para Integrações Inbound</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>AT_ID_INTEGRACAO</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Id. de Integração</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>AT_IF_INTEGRACAO_INBOUND</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Interface para Integrações Inbound</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>AT_ZINTEGRACAO_LOG</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tabela de Integração - Log de Integração</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CONFIGURE_SERVER</CMPNAME>
+     <SCONAME>R_ZIF_INTEGRACAO_INBOUND</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Interface para Integrações Inbound</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONFIGURE_SERVER</CMPNAME>
+     <SCONAME>ZCX_ERROR</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro Genérica</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONFIGURE_SERVER</CMPNAME>
+     <SCONAME>ZCX_INTEGRACAO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro de Integração</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PROCESSAR_REQUISICAO</CMPNAME>
+     <SCONAME>E_ID_INTEGRACAO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Id. de Integração</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PROCESSAR_REQUISICAO</CMPNAME>
+     <SCONAME>E_ZINTEGRACAO_LOG</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tabela de Integração - Log de Integração</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PROCESSAR_REQUISICAO</CMPNAME>
+     <SCONAME>R_ZIF_INTEGRACAO_INBOUND</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Interface para Integrações Inbound</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PROCESSAR_REQUISICAO</CMPNAME>
+     <SCONAME>ZCX_ERROR</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro Genérica</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PROCESSAR_REQUISICAO</CMPNAME>
+     <SCONAME>ZCX_INTEGRACAO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro de Integração</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_DATA</CMPNAME>
+     <SCONAME>I_INFO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Estrutura para Configuração de Requisição HTTP</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_DATA</CMPNAME>
+     <SCONAME>R_IF_INTEGRACAO_INBOUND</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Interface para Integrações Inbound</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_DATA</CMPNAME>
+     <SCONAME>ZCX_ERROR</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro Genérica</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_DATA</CMPNAME>
+     <SCONAME>ZCX_INTEGRACAO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro de Integração</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VALIDAR_DADOS_INBOUND</CMPNAME>
+     <SCONAME>E_STATUS_CODE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Campo de texto de três posições para IDocs</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VALIDAR_DADOS_INBOUND</CMPNAME>
+     <SCONAME>ZCX_ERROR</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro Genérica</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VALIDAR_DADOS_INBOUND</CMPNAME>
+     <SCONAME>ZCX_INTEGRACAO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro de Integração</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

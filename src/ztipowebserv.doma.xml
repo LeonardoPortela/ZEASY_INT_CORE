@@ -1,0 +1,618 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>ZTIPOWEBSERV</DOMNAME>
+    <DDLANGUAGE>P</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000002</LENG>
+    <OUTPUTLEN>000002</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>Tipo de Serviço WebService</DDTEXT>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>01</DOMVALUE_L>
+     <DDTEXT>- Integração OPUS - CARGUERO - Lote</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>02</DOMVALUE_L>
+     <DDTEXT>- Interface Algodão TraceCotton</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>AM</DOMVALUE_L>
+     <DDTEXT>-Listar todas as amostras SAP x ALS (s360)</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>AN</DOMVALUE_L>
+     <DDTEXT>-Listar todas as amostras SAP x ALS (s360)</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>CA</DOMVALUE_L>
+     <DDTEXT>- Consulta Arquivo de Conferência</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>CB</DOMVALUE_L>
+     <DDTEXT>- Consulta Arquivo de Cobrança e Pedágio</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>DC</DOMVALUE_L>
+     <DDTEXT>- Desconto de Classificação</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>DV</DOMVALUE_L>
+     <DDTEXT>- Defensivos ( Embalagens ) - Vencimento</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>HV</DOMVALUE_L>
+     <DDTEXT>- Atualização KUHLMANN</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>I0</DOMVALUE_L>
+     <DDTEXT>-Integração INDEA - Categoria Semente</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>I1</DOMVALUE_L>
+     <DDTEXT>-Integração INDEA - Especie</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>I2</DOMVALUE_L>
+     <DDTEXT>-Integração INDEA - Cultivar Especie</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>I3</DOMVALUE_L>
+     <DDTEXT>-Integração INDEA - Material</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>I4</DOMVALUE_L>
+     <DDTEXT>-Integração INDEA - Praga</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>I5</DOMVALUE_L>
+     <DDTEXT>-Integração INDEA - Pessoa Autorizada Agrotoxico</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>I6</DOMVALUE_L>
+     <DDTEXT>-Integração INDEA - Situação Embalagem</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>I7</DOMVALUE_L>
+     <DDTEXT>-Integração INDEA - Tipo Aplicação</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>I8</DOMVALUE_L>
+     <DDTEXT>-Integração INDEA - Unidade Medida</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>I9</DOMVALUE_L>
+     <DDTEXT>-Integração INDEA - Produto Autorizado</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>IA</DOMVALUE_L>
+     <DDTEXT>- Integração OPUS - Romaneio Completo - Alteração</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>IC</DOMVALUE_L>
+     <DDTEXT>- Integração OPUS - Romaneio Completo - Cancelamento</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>IK</DOMVALUE_L>
+     <DDTEXT>- Integração OPUS - Romaneio Completo - Ticket Romaneio</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>IM</DOMVALUE_L>
+     <DDTEXT>- Integração OPUS - Lista de Impressas</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>IR</DOMVALUE_L>
+     <DDTEXT>- Integração OPUS - Romaneio Completo - PDF Romaneio</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>CR</DOMVALUE_L>
+     <DDTEXT>- Integração OPUS - Consulta Romaneio</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>IS</DOMVALUE_L>
+     <DDTEXT>-Integração SAP x ALS (s360) - PRD</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>IT</DOMVALUE_L>
+     <DDTEXT>- Integração OPUS - Romaneio Completo</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>IU</DOMVALUE_L>
+     <DDTEXT>-Integração INDEA - URE</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>LS</DOMVALUE_L>
+     <DDTEXT>-Integração SAP x ALS (s360) - Omolog</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0030</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>OC</DOMVALUE_L>
+     <DDTEXT>- Ordem Carregamento</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0031</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>P1</DOMVALUE_L>
+     <DDTEXT>- Python Consulta SQL</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0032</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>PE</DOMVALUE_L>
+     <DDTEXT>- Pedágio.</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0033</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>R1</DOMVALUE_L>
+     <DDTEXT>- Serviços REPOM</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0034</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>RA</DOMVALUE_L>
+     <DDTEXT>- Atualizar Rota</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0035</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>RC</DOMVALUE_L>
+     <DDTEXT>- Consultar Rota</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0036</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>RO</DOMVALUE_L>
+     <DDTEXT>- Criar Rota</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0037</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>RT</DOMVALUE_L>
+     <DDTEXT>- Restrição de Produtor</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0038</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>SE</DOMVALUE_L>
+     <DDTEXT>- Integração SoftExpert</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0039</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>SL</DOMVALUE_L>
+     <DDTEXT>-Resultado amostra de óleo SAP x ALS (s360)</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0040</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>ST</DOMVALUE_L>
+     <DDTEXT>- Consulta Situação do Transportador - RNTRC - Sem Parar</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0041</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>TX</DOMVALUE_L>
+     <DDTEXT>- Taxa Curva</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0042</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>VI</DOMVALUE_L>
+     <DDTEXT>- Viagem.</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0043</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>WH</DOMVALUE_L>
+     <DDTEXT>- WebSempre Movimentações Portal</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0044</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>YC</DOMVALUE_L>
+     <DDTEXT>- Simetrya - CT-e Terceiro</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0045</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>YN</DOMVALUE_L>
+     <DDTEXT>- Simetrya - NF-e Terceiro</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0046</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>IB</DOMVALUE_L>
+     <DDTEXT>-Integração INDEA - Produtor</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0047</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>IP</DOMVALUE_L>
+     <DDTEXT>-Integração INDEA - Propriedade</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0048</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>CO</DOMVALUE_L>
+     <DDTEXT>- Cancelar Ordem Carregamento OPUS</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0049</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>LW</DOMVALUE_L>
+     <DDTEXT>-Cadastro amostra oleo (SAP X ALS)</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0050</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>LT</DOMVALUE_L>
+     <DDTEXT>-Cadastro equipamento (SAP X ALS).</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0051</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>LC</DOMVALUE_L>
+     <DDTEXT>-Cadastro compartimento (SAP X ALS).</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0052</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>SA</DOMVALUE_L>
+     <DDTEXT>Saldo de Algodão</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0053</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>XM</DOMVALUE_L>
+     <DDTEXT>Envio de XML de Doc. Fiscal para o OPUS</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0054</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>BA</DOMVALUE_L>
+     <DDTEXT>URL Base do OPUS (Geral)</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0055</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>20</DOMVALUE_L>
+     <DDTEXT>-Consulta veiculos cadastrado (SAP X Autotrac)</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0056</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>21</DOMVALUE_L>
+     <DDTEXT>-Consulta dados mensagem do veiculo (SAP X Autotrac)</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0057</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>22</DOMVALUE_L>
+     <DDTEXT>22 - SAP x Autotrac - Consulta dados veiculo próprio Amaggi</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0058</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>KU</DOMVALUE_L>
+     <DDTEXT>KUHLMANN</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0059</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>T1</DOMVALUE_L>
+     <DDTEXT>Integração TRIELO - outras variações</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0060</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>T2</DOMVALUE_L>
+     <DDTEXT>Integração TRIELO - alterando todos os campos</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0061</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>T3</DOMVALUE_L>
+     <DDTEXT>Integração TRIELO - alterando com demissao</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0062</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>T4</DOMVALUE_L>
+     <DDTEXT>Integração TRIELO - inclui férias (com inicio e fim)</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0063</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>T5</DOMVALUE_L>
+     <DDTEXT>Integração TRIELO - inclui afastamento (só inicio)</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0064</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>T6</DOMVALUE_L>
+     <DDTEXT>Integração TRIELO - altera afastamento para incluir término</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0065</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>T7</DOMVALUE_L>
+     <DDTEXT>Integração TRIELO - exclui afastamento</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0066</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>T8</DOMVALUE_L>
+     <DDTEXT>Token opus</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0067</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>V1</DOMVALUE_L>
+     <DDTEXT>Integração KONVIVA - Unidades - PUT</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0068</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>V2</DOMVALUE_L>
+     <DDTEXT>Integração KONVIVA - Setores - PUT</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0069</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>V3</DOMVALUE_L>
+     <DDTEXT>Integração KONVIVA - Cargo - PUT</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0070</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>V4</DOMVALUE_L>
+     <DDTEXT>Integração KONVIVA - Usuários - PUT</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0071</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>V5</DOMVALUE_L>
+     <DDTEXT>Integração KONVIVA - Setores - GET</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0072</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>V6</DOMVALUE_L>
+     <DDTEXT>Integração KONVIVA - Setores - POST</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0073</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>V7</DOMVALUE_L>
+     <DDTEXT>Integração KONVIVA - Cargo - GET</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0074</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>V8</DOMVALUE_L>
+     <DDTEXT>Integração KONVIVA - Cargo - POST</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0075</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>V9</DOMVALUE_L>
+     <DDTEXT>Integração KONVIVA - Unidades - GET</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0076</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>VA</DOMVALUE_L>
+     <DDTEXT>Integração KONVIVA - Unidades - POST</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0077</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>VB</DOMVALUE_L>
+     <DDTEXT>Integração KONVIVA - Usuários - GET</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0078</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>VC</DOMVALUE_L>
+     <DDTEXT>Integração KONVIVA - Usuários - POST</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0079</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>OT</DOMVALUE_L>
+     <DDTEXT>KUHLMANN_OTELHAR</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0080</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>UN</DOMVALUE_L>
+     <DDTEXT>Integração SAP PM</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0081</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>UD</DOMVALUE_L>
+     <DDTEXT>Integração SAP x Unidata ( Combustivél )</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0082</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>C1</DOMVALUE_L>
+     <DDTEXT>Integração Coupa - LookUp Values</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0083</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>RD</DOMVALUE_L>
+     <DDTEXT>- Integração OPUS - Desvincular Romaneio</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0084</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>RF</DOMVALUE_L>
+     <DDTEXT>Intergração Modal Ferroviaro</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0085</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>RV</DOMVALUE_L>
+     <DDTEXT>Intergração Modal Rodoviario</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0086</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>T9</DOMVALUE_L>
+     <DDTEXT>Token opus</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0087</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>10</DOMVALUE_L>
+     <DDTEXT>Cancelamento de ordem de carregamento</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0088</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>11</DOMVALUE_L>
+     <DDTEXT>Criar/Modificar permissões do usuário SAP-MOBILE</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0089</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>23</DOMVALUE_L>
+     <DDTEXT>Token - ACTS - Fardinho Tracecotton</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0090</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>24</DOMVALUE_L>
+     <DDTEXT>Get  ACTS - Fardinho Tracecotton</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0091</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>G1</DOMVALUE_L>
+     <DDTEXT>Send Refeitorio TGG - Ausencia</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0092</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>G2</DOMVALUE_L>
+     <DDTEXT>Get Refeitorio TGG - Acesso</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0093</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>12</DOMVALUE_L>
+     <DDTEXT>Atualiza status da NOTA SAP no MOBILE</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0094</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>13</DOMVALUE_L>
+     <DDTEXT>Atualiza nota no Mobile</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0095</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>14</DOMVALUE_L>
+     <DDTEXT>Atualiza ordem no mobman</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0096</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>15</DOMVALUE_L>
+     <DDTEXT>Atualiza equipamento</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0097</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>16</DOMVALUE_L>
+     <DDTEXT>Atualiza Local de instalação mobman</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0098</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>17</DOMVALUE_L>
+     <DDTEXT>Atualiza centro de trabalho mobman</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0099</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>SP</DOMVALUE_L>
+     <DDTEXT>Status parceiro  TIP</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0100</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>18</DOMVALUE_L>
+     <DDTEXT>Atualiza nota no Mobile - Atividades</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

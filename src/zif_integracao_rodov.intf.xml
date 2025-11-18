@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_INTEGRACAO_RODOV</CLSNAME>
+    <LANGU>P</LANGU>
+    <DESCRIPT>Interface integração modal rodoviario</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>AT_CNPJ_TERMINAL</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>CNPJ Terminal</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_CNPJ_TERMINAL</CMPNAME>
+     <SCONAME>I_CNPJ_TERMINAL</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Sigla Terminal</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_CNPJ_TERMINAL</CMPNAME>
+     <SCONAME>R_IF_INTEGRACAO_RODOV</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Interface integração modal rodoviario</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

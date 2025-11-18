@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_INTEGRACAO_NEW_ROMANEIO</CLSNAME>
+    <LANGU>P</LANGU>
+    <DESCRIPT>Interface de recebimento das informações do Romaneio</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>AT_ID_INTEGRACAO</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Id. de Integração</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>AT_IF_INTEGRACAO_NEW_ROMANEIO</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Interface de recebimento das informações do Romaneio</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>AT_RECEBIDO</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Caractere comprimento 11</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>AT_RETORNO</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Informações para preenchimento dos dados de remessa. (OPUS)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>AT_ZSDT001</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Informações para preenchimento dos dados de remessa. (OPUS)</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>R_IF_INTEGRACAO_NEW_ROMANEIO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Interface de recebimento das informações do Romaneio</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>ZCX_INTEGRACAO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro de Integração</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_VALIDAR_DADOS</CMPNAME>
+     <SCONAME>E_ZFIWRT0008</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tabela de Lançamento  Fiscais NF.WRITER</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_VALIDAR_DADOS</CMPNAME>
+     <SCONAME>E_ZFIWRT0009</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tabela de Lançamento  Fiscais NF.WRITER - Itens</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_VALIDAR_DADOS</CMPNAME>
+     <SCONAME>I_NFE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Processo de Solicitação de Nota Fiscal raiz</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_VALIDAR_DADOS</CMPNAME>
+     <SCONAME>ZCX_ERROR</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro Genérica</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_VALIDAR_DADOS</CMPNAME>
+     <SCONAME>ZCX_INTEGRACAO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro de Integração</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_DS_DATA</CMPNAME>
+     <SCONAME>I_INFO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Estrutura para Configuração de Requisição HTTP</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_DS_DATA</CMPNAME>
+     <SCONAME>R_IF_INTEGRACAO_NEW_ROMANEIO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Interface de recebimento das informações do Romaneio</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_NEW_ROMANEIO</CMPNAME>
+     <SCONAME>R_IF_INTEGRACAO_NEW_ROMANEIO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Interface de recebimento das informações do Romaneio</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_NEW_ROMANEIO</CMPNAME>
+     <SCONAME>ZCX_ERROR</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro Genérica</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_NEW_ROMANEIO</CMPNAME>
+     <SCONAME>ZCX_INTEGRACAO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro de Integração</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_SEND_MSG</CMPNAME>
+     <SCONAME>E_ZINTEGRACAO_LOG</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tabela de Integração - Log de Integração</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_SEND_MSG</CMPNAME>
+     <SCONAME>R_IF_INTEGRACAO_NEW_ROMANEIO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Interface de recebimento das informações do Romaneio</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_SEND_MSG</CMPNAME>
+     <SCONAME>ZCX_ERROR</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro Genérica</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_SEND_MSG</CMPNAME>
+     <SCONAME>ZCX_INTEGRACAO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro de Integração</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_INTEGRACAO_COUPA_REQUISIT</CLSNAME>
+    <LANGU>P</LANGU>
+    <DESCRIPT>Verificar orçamento SAP para requisição de compras COUPA</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>AT_IF_INTEGRACAO_REQUISIT</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Verificar orçamento SAP para requisição de compras COUPA</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>AT_REQUISICAO_COMPRA_COUPA</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Estrutura de inbound de requisição de compra coupa</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>AT_SERVICO</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tipo de Serviço WebService</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>R_IF_INTEGRACAO_REQUISIT</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Verificar orçamento SAP para requisição de compras COUPA</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>ZCX_INTEGRACAO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro de Integração</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_DS_DATA</CMPNAME>
+     <SCONAME>I_INFO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Estrutura para Configuração de Requisição HTTP</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_DS_DATA</CMPNAME>
+     <SCONAME>R_IF_INTEGRACAO_REQUISIT</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Verificar orçamento SAP para requisição de compras COUPA</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_DS_DATA</CMPNAME>
+     <SCONAME>ZCX_INTEGRACAO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro de Integração</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_SEND_MSG</CMPNAME>
+     <SCONAME>E_ZINTEGRACAO_LOG</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tabela de Integração - Log de Integração</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_SEND_MSG</CMPNAME>
+     <SCONAME>R_IF_INTEGRACAO_REQUISIT</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Verificar orçamento SAP para requisição de compras COUPA</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

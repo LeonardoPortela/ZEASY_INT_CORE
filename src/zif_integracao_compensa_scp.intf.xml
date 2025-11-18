@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_INTEGRACAO_COMPENSA_SCP</CLSNAME>
+    <LANGU>P</LANGU>
+    <DESCRIPT>API entre SAP e FoftExpert - Sinistro veículos</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>AT_ID_INTEGRACAO</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Id. de Integração</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>AT_IF_INTEGRACAO_COMPENSA_SCP</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Interface de Solicitação de NF-e</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>R_IF_INTEGRACAO_COMPENSA_SCP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Interface de Solicitação de NF-e</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>ZCX_INTEGRACAO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro de Integração</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_DS_DATA</CMPNAME>
+     <SCONAME>I_INFO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Estrutura para Configuração de Requisição HTTP</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_DS_DATA</CMPNAME>
+     <SCONAME>R_IF_INTEGRACAO_COMPENSA_SCP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Interface de Solicitação de NF-e</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_DS_DATA</CMPNAME>
+     <SCONAME>ZCX_INTEGRACAO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro de Integração</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_SEND_MSG</CMPNAME>
+     <SCONAME>E_ZINTEGRACAO_LOG</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tabela de Integração - Log de Integração</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_SEND_MSG</CMPNAME>
+     <SCONAME>R_IF_INTEGRACAO_COMPENSA_SCP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Interface de Solicitação de NF-e</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_SEND_MSG</CMPNAME>
+     <SCONAME>ZCX_ERROR</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro Genérica</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_SEND_MSG</CMPNAME>
+     <SCONAME>ZCX_INTEGRACAO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro de Integração</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

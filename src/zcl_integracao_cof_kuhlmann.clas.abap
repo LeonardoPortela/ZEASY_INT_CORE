@@ -1,0 +1,240 @@
+class ZCL_INTEGRACAO_COF_KUHLMANN definition
+  public
+  final
+  create public .
+
+public section.
+
+  interfaces ZIF_INTEGRACAO_COF_KUHLMANN .
+  interfaces ZIF_INTEGRACAO_INJECT .
+
+  methods CONSTRUCTOR
+    raising
+      ZCX_INTEGRACAO .
+protected section.
+private section.
+ENDCLASS.
+
+
+
+CLASS ZCL_INTEGRACAO_COF_KUHLMANN IMPLEMENTATION.
+
+
+  METHOD CONSTRUCTOR.
+
+    ME->ZIF_INTEGRACAO_INJECT~AT_ID_INTERFACE    = ZIF_INTEGRACAO=>AT_ID_INTERFACE_KUHLMANN_COF.
+    ME->ZIF_INTEGRACAO_INJECT~AT_TP_INTEGRACAO   = ZIF_INTEGRACAO=>AT_TP_INTEGRACAO_OUTBOUND.
+    ME->ZIF_INTEGRACAO_INJECT~AT_TP_CANAL        = ZIF_INTEGRACAO=>AT_TP_CANAL_COMUNICA_HTTP.
+    ME->ZIF_INTEGRACAO_INJECT~AT_TP_SINCRONIA    = ZIF_INTEGRACAO=>AT_TP_SINCRONIA_SINCRONA.
+    ME->ZIF_INTEGRACAO_INJECT~AT_AUTENTICA_OPUS  = ZIF_INTEGRACAO=>AT_ID_INTERFACE_AUT_OPUS_NAO.
+    ME->ZIF_INTEGRACAO_INJECT~AT_SEND_AUTENTICAO = ZIF_INTEGRACAO=>AT_ID_INTERFACE_AUT_SEND_SIM.
+
+    ME->ZIF_INTEGRACAO_COF_KUHLMANN~SET_DS_URL( ).
+
+  ENDMETHOD.
+
+
+  METHOD ZIF_INTEGRACAO_COF_KUHLMANN~GET_ID_REFERENCIA.
+    R_IF_INTEGRACAO_COF_KUHLMANN = ME.
+    E_REFERENCIA-TP_REFERENCIA = 'KUHLMANN_COFIRMACAO'.
+    E_REFERENCIA-ID_REFERENCIA = ME->ZIF_INTEGRACAO_COF_KUHLMANN~AT_OS_ID.
+  ENDMETHOD.
+
+
+  METHOD ZIF_INTEGRACAO_COF_KUHLMANN~GET_INSTANCE.
+
+    IF ZIF_INTEGRACAO_COF_KUHLMANN~AT_IF_INTEGRACAO_COF_KUHLMANN IS NOT BOUND.
+      CREATE OBJECT ZIF_INTEGRACAO_COF_KUHLMANN~AT_IF_INTEGRACAO_COF_KUHLMANN
+        TYPE ZCL_INTEGRACAO_COF_KUHLMANN.
+    ENDIF.
+    R_IF_INTEGRACAO_COF_KUHLMANN = ZIF_INTEGRACAO_COF_KUHLMANN~AT_IF_INTEGRACAO_COF_KUHLMANN.
+
+  ENDMETHOD.
+
+
+  method ZIF_INTEGRACAO_COF_KUHLMANN~GET_JSON.
+
+    R_IF_INTEGRACAO_COF_KUHLMANN = ME.
+
+    E_JSON = '{' && CL_ABAP_CHAR_UTILITIES=>NEWLINE &&
+             ' "os_id" : ' && ME->ZIF_INTEGRACAO_COF_KUHLMANN~AT_OS_ID && ' ' && CL_ABAP_CHAR_UTILITIES=>NEWLINE &&
+             '}'.
+
+  endmethod.
+
+
+  method ZIF_INTEGRACAO_COF_KUHLMANN~SET_DS_DATA.
+
+    "Incluir Texto JSON para integração
+    R_IF_INTEGRACAO_COF_KUHLMANN = ME.
+
+    ME->ZIF_INTEGRACAO_INJECT~AT_INFO_REQUEST_HTTP-DS_BODY = I_JSON.
+
+  endmethod.
+
+
+  METHOD ZIF_INTEGRACAO_COF_KUHLMANN~SET_DS_URL.
+
+    R_IF_INTEGRACAO_COF_KUHLMANN = ME.
+
+    SELECT SINGLE * INTO @DATA(WA_WEBSERVICE)
+      FROM ZCIOT_WEBSERVICE
+     WHERE TIPO    EQ 'K'
+       AND SERVICO EQ 'KU'.
+
+    IF SY-SUBRC IS NOT INITIAL.
+      RAISE EXCEPTION TYPE ZCX_INTEGRACAO
+        EXPORTING
+          TEXTID = VALUE #( MSGID = ZCX_INTEGRACAO=>ZCX_SERVICO_HTTP_CONFIG-MSGID
+                            MSGNO = ZCX_INTEGRACAO=>ZCX_SERVICO_HTTP_CONFIG-MSGNO
+                            ATTR1 = 'K'
+                            ATTR2 = 'KU' )
+          MSGID  = ZCX_INTEGRACAO=>ZCX_SERVICO_HTTP_CONFIG-MSGID
+          MSGNO  = ZCX_INTEGRACAO=>ZCX_SERVICO_HTTP_CONFIG-MSGNO
+          MSGTY  = 'E'
+          MSGV1  = 'K'
+          MSGV2  = 'KU'.
+    ENDIF.
+
+    ME->ZIF_INTEGRACAO_INJECT~AT_INFO_REQUEST_HTTP-DS_FORMATO      = 'JSON'.
+    ME->ZIF_INTEGRACAO_INJECT~AT_INFO_REQUEST_HTTP-DS_CONTENT_TYPE = WA_WEBSERVICE-CONTENT_TYPE.
+    ME->ZIF_INTEGRACAO_INJECT~AT_INFO_REQUEST_HTTP-DS_URL_TOKEN    = WA_WEBSERVICE-URL_TOKEN.
+    ME->ZIF_INTEGRACAO_INJECT~AT_INFO_REQUEST_HTTP-DS_URL = WA_WEBSERVICE-URL && ZIF_INTEGRACAO_COF_KUHLMANN=>AT_FC_END_POINT.
+    ME->ZIF_INTEGRACAO_INJECT~AT_INFO_REQUEST_HTTP-DS_FUNCAO_PROCESSA = ZIF_INTEGRACAO_COF_KUHLMANN=>AT_FC_END_POINT.
+    ME->ZIF_INTEGRACAO_INJECT~AT_INFO_REQUEST_HTTP-DS_METODO = 'POST'.
+    ME->ZIF_INTEGRACAO_INJECT~AT_INFO_REQUEST_HTTP-DS_SERVER_PROTOCOLO = ''.
+
+    ME->ZIF_INTEGRACAO_COF_KUHLMANN~SET_ID_REFERENCIA( ).
+
+  ENDMETHOD.
+
+
+  METHOD ZIF_INTEGRACAO_COF_KUHLMANN~SET_HVI_CONFIRMAR.
+
+    R_IF_INTEGRACAO_COF_KUHLMANN = ME.
+
+    ME->ZIF_INTEGRACAO_COF_KUHLMANN~AT_OS_ID = I_OS_ID.
+    "ME->ZIF_INTEGRACAO_COF_KUHLMANN~AT_SENHA = I_SENHA.
+    "ME->ZIF_INTEGRACAO_COF_KUHLMANN~AT_USUARIO = I_USUARIO.
+
+    "Inclui Json na Mesagem a Ser Enviada
+    ME->ZIF_INTEGRACAO_COF_KUHLMANN~GET_JSON( IMPORTING E_JSON = DATA(LC_JSON)
+      )->SET_DS_DATA( EXPORTING I_JSON = LC_JSON
+      )->SET_DS_URL(
+      )->SET_SEND_MSG( IMPORTING E_ID_INTEGRACAO = E_ID_INTEGRACAO E_INTEGRACAO	= E_INTEGRACAO
+      ).
+
+  ENDMETHOD.
+
+
+  method ZIF_INTEGRACAO_COF_KUHLMANN~SET_ID_REFERENCIA.
+
+    "Incluir Chave de Referência
+    R_IF_INTEGRACAO_COF_KUHLMANN = ME.
+    ME->ZIF_INTEGRACAO_COF_KUHLMANN~GET_ID_REFERENCIA( IMPORTING E_REFERENCIA = ME->ZIF_INTEGRACAO_INJECT~AT_REFERENCIA ).
+
+  endmethod.
+
+
+  METHOD ZIF_INTEGRACAO_COF_KUHLMANN~SET_SEND_MSG.
+
+    DATA: LC_INTEGRAR TYPE REF TO ZCL_INTEGRACAO.
+
+    R_IF_INTEGRACAO_COF_KUHLMANN = ME.
+
+    CREATE OBJECT LC_INTEGRAR.
+
+    "Cria MSG para Integração via HTTP
+    LC_INTEGRAR->ZIF_INTEGRACAO~SET_MSG_INJECT( I_MSG = CAST #( ME )
+      )->SET_NEW_MSG( IMPORTING E_ID_INTEGRACAO = E_ID_INTEGRACAO
+      )->SET_OUTBOUND_MSG(
+      )->SET_PROCESSAR_RETORNO(
+      )->SET_INTEGRAR_RETORNO(
+      )->GET_REGISTRO( IMPORTING E_INTEGRACAO = E_INTEGRACAO
+      )->FREE(
+      ).
+
+    CLEAR: LC_INTEGRAR.
+
+  ENDMETHOD.
+
+
+  method ZIF_INTEGRACAO_INJECT~GET_HEADER_REQUEST_HTTP.
+    r_if_integracao_inject = me.
+    e_header_fields = me->zif_integracao_inject~at_header_fields.
+  endmethod.
+
+
+  method ZIF_INTEGRACAO_INJECT~SET_BEFORE_ERROR_OUTBOUND_MSG.
+    E_SUCESSO = ABAP_FALSE.
+  endmethod.
+
+
+  METHOD zif_integracao_inject~set_before_send_outbound_msg.
+
+    r_if_integracao_inject = me.
+
+    TRY .
+        CAST zcl_integracao_token_kuhlmann(
+               zcl_integracao_token_kuhlmann=>zif_integracao_token_kuhlmann~get_instance(
+                 )->set_usuario_senha( "EXPORTING I_SENHA = ME->ZIF_INTEGRACAO_COF_KUHLMANN~AT_SENHA
+                                       "          I_USUARIO = ME->ZIF_INTEGRACAO_COF_KUHLMANN~AT_USUARIO
+                 )
+             )->zif_integracao_inject~get_header_request_http(
+          IMPORTING
+            e_header_fields = DATA(e_header_fields) ).
+
+        me->zif_integracao_inject~set_header_request_http( i_header_fields = e_header_fields ).
+
+      CATCH zcx_error INTO DATA(ex_erro).
+
+        RAISE EXCEPTION TYPE zcx_integracao
+          EXPORTING
+            textid = VALUE #( msgid = ex_erro->zif_error~msgid
+                              msgno = ex_erro->zif_error~msgno
+                              attr1 = CONV #( ex_erro->zif_error~msgv1 )
+                              attr2 = CONV #( ex_erro->zif_error~msgv2 )
+                              attr3 = CONV #( ex_erro->zif_error~msgv3 )
+                              attr4 = CONV #( ex_erro->zif_error~msgv4 ) )
+            msgid  = ex_erro->zif_error~msgid
+            msgno  = ex_erro->zif_error~msgno
+            msgty  = 'E'
+            msgv1  = ex_erro->zif_error~msgv1
+            msgv2  = ex_erro->zif_error~msgv2
+            msgv3  = ex_erro->zif_error~msgv3
+            msgv4  = ex_erro->zif_error~msgv4.
+
+    ENDTRY.
+
+  ENDMETHOD.
+
+
+  method ZIF_INTEGRACAO_INJECT~SET_HEADER_REQUEST_HTTP.
+    R_IF_INTEGRACAO_INJECT = ME.
+    ME->ZIF_INTEGRACAO_INJECT~AT_HEADER_FIELDS = I_HEADER_FIELDS.
+  endmethod.
+
+
+  method ZIF_INTEGRACAO_INJECT~SET_INTEGRAR_INBOUND.
+    R_IF_INTEGRACAO_INJECT = ME.
+    E_SUCESSO = ABAP_TRUE.
+  endmethod.
+
+
+  method ZIF_INTEGRACAO_INJECT~SET_INTEGRAR_RETORNO.
+    R_IF_INTEGRACAO_INJECT = ME.
+    E_SUCESSO = ABAP_TRUE.
+  endmethod.
+
+
+  method ZIF_INTEGRACAO_INJECT~SET_PROCESSA_INBOUND.
+    R_IF_INTEGRACAO_INJECT = ME.
+    E_SUCESSO = ABAP_TRUE.
+  endmethod.
+
+
+  method ZIF_INTEGRACAO_INJECT~SET_PROCESSA_RETORNO.
+    R_IF_INTEGRACAO_INJECT = ME.
+    E_SUCESSO = ABAP_TRUE.
+  endmethod.
+ENDCLASS.

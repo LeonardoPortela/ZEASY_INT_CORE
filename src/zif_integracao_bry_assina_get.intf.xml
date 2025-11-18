@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_INTEGRACAO_BRY_ASSINA_GET</CLSNAME>
+    <LANGU>P</LANGU>
+    <DESCRIPT>Interface recuperação de documentos da BRy</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>AT_AUTH_WS</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Parâmetros p/ autenticação de webservices</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>AT_BAPIRET2_TAB</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tabela de retorno</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>AT_INSTANCE</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Interface envio de documentos para BRy</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>AT_SERVICO</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tipo de Serviço WebService</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE_SERVICE</CMPNAME>
+     <SCONAME>I_METHOD</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Metodo da Requisição HTTP</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE_SERVICE</CMPNAME>
+     <SCONAME>R_INTEGRACAO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tabela de Integração</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE_SERVICE</CMPNAME>
+     <SCONAME>ZCX_ERROR</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro Genérica</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE_SERVICE</CMPNAME>
+     <SCONAME>ZCX_INTEGRACAO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro de Integração</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DOCS_ASSINADOS</CMPNAME>
+     <SCONAME>IR_ID_REF_RANGE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Range de Ids de Referencia</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DOCS_ASSINADOS</CMPNAME>
+     <SCONAME>I_ID_PROCESSO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>ID do processo</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DOCS_ASSINADOS</CMPNAME>
+     <SCONAME>R_DOCS_ASSINADOS</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Documentos assinados</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DOCS_ASSINADOS_BY_WF_ID</CMPNAME>
+     <SCONAME>IV_WORKFLOW_BRY</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Range de Ids de Referencia</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DOCS_ASSINADOS_BY_WF_ID</CMPNAME>
+     <SCONAME>R_DOCS_ASSINADOS</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Documentos assinados</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>R_OBJECT</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Interface de Solicitacao de HVI</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>ZCX_INTEGRACAO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro de Integração</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_MESSAGES</CMPNAME>
+     <SCONAME>R_RET</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tabela de retorno</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_REL_ASSINANTES</CMPNAME>
+     <SCONAME>I_DOC_ASSINADO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>ID de referencia para assinatura</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_REL_ASSINANTES</CMPNAME>
+     <SCONAME>RS_REL_ASSINANTES</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Documentos assinados</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_MESSAGE</CMPNAME>
+     <SCONAME>I_MSGTY</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tipo de mensagem</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

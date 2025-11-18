@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_WEBSERVICE_TX_CURVA</CLSNAME>
+    <LANGU>P</LANGU>
+    <DESCRIPT>WebService da Taxa Curva</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>BUSCAR_TAXA</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Método para Capturar a Taxa Curva.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>EXECUTAR</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Método para executar o processo da taxa curva.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HEDGE_INSUMOS</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Método para disparo do Hedge Insumos</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>LER_XML_TAXA</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Método para ler o XML de retorno da Taxa.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MONTA_XML_TAXA</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Método para montar o XML de Consulta.</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>BUSCAR_TAXA</CMPNAME>
+     <SCONAME>E_COTACAO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Taxa de câmbio para lançamentos FI</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>BUSCAR_TAXA</CMPNAME>
+     <SCONAME>I_DATA</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>BUSCAR_TAXA</CMPNAME>
+     <SCONAME>I_DATA_LIB</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Data Liberação</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>BUSCAR_TAXA</CMPNAME>
+     <SCONAME>I_TIPO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Campo de texto do comprimento 1</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>BUSCAR_TAXA</CMPNAME>
+     <SCONAME>ZCX_WEBSERVICE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>WebService - Exception</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTAR</CMPNAME>
+     <SCONAME>I_AUART</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tipo de documento de vendas</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTAR</CMPNAME>
+     <SCONAME>I_FIXACAO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Nº item do documento de vendas e distribuição</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTAR</CMPNAME>
+     <SCONAME>I_NUMERO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Numero de Solicitação de Ordem de Venda</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTAR</CMPNAME>
+     <SCONAME>I_TCODE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Código de transação atual</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTAR</CMPNAME>
+     <SCONAME>I_TIPO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Nº item do Tipo de Solicitação</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTAR</CMPNAME>
+     <SCONAME>I_UCOMM</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Código de função que acionou o PAI</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTAR</CMPNAME>
+     <SCONAME>I_VBAP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tipo de tabela para estrutura VBAP</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTAR</CMPNAME>
+     <SCONAME>I_VBELN</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Nº documento de vendas e distribuição</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HEDGE_AQUAVIARIO</CMPNAME>
+     <SCONAME>_AUART</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tipo de documento de vendas</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HEDGE_AQUAVIARIO</CMPNAME>
+     <SCONAME>_CODE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Código de transação</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HEDGE_AQUAVIARIO</CMPNAME>
+     <SCONAME>_VBRK</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Documento de faturamento: dados de cabeçalho</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HEDGE_AQUAVIARIO</CMPNAME>
+     <SCONAME>_VBRP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Documento de faturamento: dados de item</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HEDGE_INSUMOS</CMPNAME>
+     <SCONAME>I_0090</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Simulador de Vendas – Controle de Transferencias de OV</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HEDGE_INSUMOS</CMPNAME>
+     <SCONAME>I_0090_MANUAL</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Se marcado, nao atualiza ZSDT0090</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HEDGE_INSUMOS</CMPNAME>
+     <SCONAME>I_ACAO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Ação da Operação</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HEDGE_INSUMOS</CMPNAME>
+     <SCONAME>I_DIR</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Código de uma posição</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HEDGE_INSUMOS</CMPNAME>
+     <SCONAME>I_NUMERO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Numero do documento de simulação de venda</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HEDGE_INSUMOS</CMPNAME>
+     <SCONAME>I_SEQ</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Sequencia da zsdt0090</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HEDGE_INSUMOS</CMPNAME>
+     <SCONAME>I_TAXA_BOLETA</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Taxa de câmbio cotação de preços</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HEDGE_INSUMOS</CMPNAME>
+     <SCONAME>I_TIPO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Campo de 3 bytes de comprimento</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HEDGE_INSUMOS</CMPNAME>
+     <SCONAME>I_VBELN</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Nº documento de vendas e distribuição</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LER_XML_TAXA</CMPNAME>
+     <SCONAME>E_COTACAO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Taxa de câmbio para lançamentos FI</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LER_XML_TAXA</CMPNAME>
+     <SCONAME>ZCX_WEBSERVICE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>WebService - Exception</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MONTA_XML_TAXA</CMPNAME>
+     <SCONAME>I_DATA</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Data atual do servidor de aplicação</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MONTA_XML_TAXA</CMPNAME>
+     <SCONAME>I_DATA_LIB</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Data de Liberação</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MONTA_XML_TAXA</CMPNAME>
+     <SCONAME>I_TIPO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Campo de texto de três posições para IDocs</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

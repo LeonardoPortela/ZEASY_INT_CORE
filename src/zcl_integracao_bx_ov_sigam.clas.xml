@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_INTEGRACAO_BX_OV_SIGAM</CLSNAME>
+    <LANGU>P</LANGU>
+    <DESCRIPT>Integração Cliente</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>AT_ID_INTERFACE</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Id. de Integração de Inteface</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>ZCX_INTEGRACAO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro de Integração</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>Z_GERA_CONTABIL</CMPNAME>
+     <SCONAME>E_NM_CODE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Campo de texto de três posições para IDocs</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>Z_GERA_CONTABIL</CMPNAME>
+     <SCONAME>E_SUCESSO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Campo de texto do comprimento 1</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>Z_GERA_CONTABIL</CMPNAME>
+     <SCONAME>I_ID_INTEGRACAO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Id. de Integração</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>Z_GERA_CONTABIL</CMPNAME>
+     <SCONAME>I_MSG_COMPLETA</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tabela de Integração</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>Z_GERA_CONTABIL</CMPNAME>
+     <SCONAME>R_IF_INTEGRACAO_INJECT</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Interface p/ Padrão de Msg</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>Z_GERA_CONTABIL</CMPNAME>
+     <SCONAME>WA_ZFIT0026</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tabela de Controle de Lançamentos Insumos</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>Z_GERA_DOCUMENTO_CONTABIL</CMPNAME>
+     <SCONAME>WA_ZFIT0026</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tabela de Controle de Lançamentos Insumos</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

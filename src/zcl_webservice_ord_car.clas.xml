@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_WEBSERVICE_ORD_CAR</CLSNAME>
+    <LANGU>P</LANGU>
+    <DESCRIPT>WebService da Ordem Carregamento</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>BUSCAR_TRANSPORTE</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Método para capturar dados Transporte.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>LER_XML_TRANSP</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Método para ler o XML de retorno dos dados Transp.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MONTA_XML_TRANSP</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Método para montar o XML de Consulta.</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>BUSCAR_TRANSPORTE</CMPNAME>
+     <SCONAME>E_ORDEM_CAR</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Dados Transp. Ordem Carregamento</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>BUSCAR_TRANSPORTE</CMPNAME>
+     <SCONAME>I_FILIAL</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Centro</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>BUSCAR_TRANSPORTE</CMPNAME>
+     <SCONAME>I_NR_ORDEM</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Campo de texto (comprimento 14)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>BUSCAR_TRANSPORTE</CMPNAME>
+     <SCONAME>I_SAFRA</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Categoria de dados 4 caracteres</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LER_XML_TRANSP</CMPNAME>
+     <SCONAME>E_ORDEM_CAR</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Dados Transp. Ordem Carregamento</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MONTA_XML_TRANSP</CMPNAME>
+     <SCONAME>I_NR_ORDEM</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Número Ordem</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MONTA_XML_TRANSP</CMPNAME>
+     <SCONAME>I_SAFRA</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Safra</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

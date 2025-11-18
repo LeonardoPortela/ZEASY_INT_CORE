@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_INTEGRACAO_COTTON_SAP</CLSNAME>
+    <LANGU>P</LANGU>
+    <DESCRIPT>Interface de Solicitação de NF-e</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>AT_DADOS_INBOUND</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Estrutura para recebimento Dados de Beneficiamento Algodao</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>AT_ID_INTEGRACAO</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Id. de Integração</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>AT_PROC_ZPPT0002</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tabela de Pré - Classificação de Pluma</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>AT_PROC_ZPPT0002_T</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tabela de Pré - Classificação de Pluma.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>AT_PROTOCOLO_RECEBIMENTO</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Referência p/ Sincronia de Msg OutBound e InBound</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>AT_RECEBIDO</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Sequencia de Recebimento</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>AT_RETORNO</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tipo Tabela de Recepção de dados da Trace Cotton</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>AT_STATUS</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Status JOB Trace Cotton</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>AT_ZSDT0231</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Vinculo de SeqPlanilha com Docnum</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>AT_ZSDT0232</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Vinculo de SeqPlanilha com Docnum - NFref</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>AT_ZSDT0233</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tabela de Gurpo de Pagamento de NF-e</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_ZMMR0030</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Nome de um programa em uma etapa (p.ex. report)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_ZMMR0031</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Nome de um programa em uma etapa (p.ex. report)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_ZMMR0040</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Nome de um programa em uma etapa (p.ex. report)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_ZMMR0041</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Nome de um programa em uma etapa (p.ex. report)</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_CHECK_JOB</CMPNAME>
+     <SCONAME>R_IF_INTEGRACAO_COTTON_SAP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Interface de Solicitação de NF-e</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DOUBLE_CHECK</CMPNAME>
+     <SCONAME>R_IF_INTEGRACAO_COTTON_SAP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Interface de Solicitação de NF-e</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>ZCX_INTEGRACAO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro de Integração</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_DS_DATA</CMPNAME>
+     <SCONAME>I_INFO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Estrutura para Configuração de Requisição HTTP</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_DS_DATA</CMPNAME>
+     <SCONAME>ZCX_INTEGRACAO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro de Integração</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_ESTORNA_DADOS</CMPNAME>
+     <SCONAME>ZCX_ERROR</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro Genérica</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_ESTORNA_DADOS</CMPNAME>
+     <SCONAME>ZCX_INTEGRACAO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro Genérica</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_ESTORNA_DADOS</CMPNAME>
+     <SCONAME>ZCX_NF_WRITER</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro Nota Fiscal Writer</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_ESTORNA_DADOS</CMPNAME>
+     <SCONAME>ZCX_PARCEIROS</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro Genérica</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_PROCESSA_DADOS</CMPNAME>
+     <SCONAME>ZCX_ERROR</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro de Integração</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_PROCESSA_DADOS</CMPNAME>
+     <SCONAME>ZCX_INTEGRACAO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro de Integração</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_PROCESSA_DADOS</CMPNAME>
+     <SCONAME>ZCX_NF_WRITER</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro Nota Fiscal Writer</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_PROCESSA_DADOS</CMPNAME>
+     <SCONAME>ZCX_PARCEIROS</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Erro Parceiros</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_SEND_MSG</CMPNAME>
+     <SCONAME>E_ZINTEGRACAO_LOG</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tabela de Integração - Log de Integração</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_SEND_MSG</CMPNAME>
+     <SCONAME>ZCX_ERROR</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro Genérica</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_SEND_MSG</CMPNAME>
+     <SCONAME>ZCX_INTEGRACAO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de Erro de Integração</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

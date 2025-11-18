@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_WEBSERVICE</CLSNAME>
+    <LANGU>P</LANGU>
+    <DESCRIPT>WebService</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>AT_CONTENT_TYPE</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Content Type WebService</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>AT_HTTP</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>HTTP Client Abstraction</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>AT_SERVICO</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tipo de Serviço WebService</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>AT_TIPO</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tipo de WebService</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DESTRUCTOR</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>DESTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_SENHA</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Capturar o Endereço do WebService.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_SERVICO</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Capturar o serviço. Ex: PE (Pedágio).</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_TIPO</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Capturar o Tipo de Serviço. Ex: C (Consulta).</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_URI</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Capturar o Endereço do WebService.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_USUARIO</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Capturar o Endereço do WebService.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_SENHA</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Informa Senha</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_SERVICO</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Configurar o serviço. Ex: PE (Pedágio).</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_TIPO</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Capturar o Tipo de serviço. Ex: C (Consulta).</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_USUARIO</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Informa Usuario</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>URL</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Capturar o Endereço do WebService.</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_SENHA</CMPNAME>
+     <SCONAME>E_SENHA</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Usuário</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_SENHA</CMPNAME>
+     <SCONAME>ZCX_WEBSERVICE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>WebService - Exception</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_SERVICO</CMPNAME>
+     <SCONAME>E_SERVICO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tipo de Serviço WebService</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_TIPO</CMPNAME>
+     <SCONAME>E_TIPO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tipo de WebService</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_URI</CMPNAME>
+     <SCONAME>E_URI</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tabela de WebServices para Viagem Adiministradora</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_URI</CMPNAME>
+     <SCONAME>ZCX_WEBSERVICE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>WebService - Exception</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_USUARIO</CMPNAME>
+     <SCONAME>E_USUARIO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Usuário</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_USUARIO</CMPNAME>
+     <SCONAME>ZCX_WEBSERVICE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>WebService - Exception</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_SERVICO</CMPNAME>
+     <SCONAME>I_SERVICO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tipo de Serviço WebService</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_SERVICO</CMPNAME>
+     <SCONAME>ZCX_WEBSERVICE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>WebService - Exception</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_TIPO</CMPNAME>
+     <SCONAME>I_TIPO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tipo de WebService</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>URL</CMPNAME>
+     <SCONAME>I_ADD_URL</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Complemento URL</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>URL</CMPNAME>
+     <SCONAME>I_URL</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>URL de WebService Adiministradora</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>URL</CMPNAME>
+     <SCONAME>ZCX_WEBSERVICE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>WebService - Exception</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_INTEGRACAO_RECIBOS_COUPA</CLSNAME>
+    <LANGU>P</LANGU>
+    <DESCRIPT>Criar taxas de cambio</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>AT_BAPIESKLC</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Estrut.comunicação criar distrib.class.cont.linha serviço</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>AT_BAPIESKNC</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Estrutura de comunicação: criar class.cont.p/folha registro</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>AT_BAPIESSRC</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Estrutura de comunicação: criar folha de registro</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>AT_MSG</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Agrupar mensagens no sistema SAP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>AT_TAXA_CAMBIO_STRUCT</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Taxa de cambio interface COUPA</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>BUSCA_ITENS_DETALHES</CMPNAME>
+     <SCONAME>I_PO_NUMBER</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Nº do documento de compras</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>I_SERVICO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tipo de Serviço WebService</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PROCESSO_CRIACAO_FOLHA</CMPNAME>
+     <SCONAME>CWA_SERVICO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Folhas de serviços coupa</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
