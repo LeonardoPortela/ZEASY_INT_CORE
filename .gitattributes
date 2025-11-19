@@ -1,0 +1,10 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Force CRLF for ABAP files (required by abapGit)
+*.xml text eol=crlf
+*.abap text eol=crlf
+
+# Ensure these files always have CRLF line endings on checkout
+*.sicf.xml text eol=crlf
+
