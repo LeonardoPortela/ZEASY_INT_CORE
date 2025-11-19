@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZDE_DOCNUM_CTE</ROLLNAME>
+    <DDLANGUAGE>P</DDLANGUAGE>
+    <DOMNAME>J_1BDOCNUM</DOMNAME>
+    <MEMORYID>JEF</MEMORYID>
+    <HEADLEN>31</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>21</SCRLEN3>
+    <DDTEXT>Documento CT-e</DDTEXT>
+    <REPTEXT>Documento CT-e</REPTEXT>
+    <SCRTEXT_S>Doc. CT-e</SCRTEXT_S>
+    <SCRTEXT_M>Documento CT-e</SCRTEXT_M>
+    <SCRTEXT_L>Documento CT-e</SCRTEXT_L>
+    <DTELMASTER>P</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>E</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Belegnummer</DDTEXT>
+     <REPTEXT>Belegnr.</REPTEXT>
+     <SCRTEXT_S>Belegnr.</SCRTEXT_S>
+     <SCRTEXT_M>Belegnummer</SCRTEXT_M>
+     <SCRTEXT_L>Belegnummer</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Document Number</DDTEXT>
+     <REPTEXT>Doc. No.</REPTEXT>
+     <SCRTEXT_S>Doc. No.</SCRTEXT_S>
+     <SCRTEXT_M>Document Number</SCRTEXT_M>
+     <SCRTEXT_L>Document Number</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Document Number</DDTEXT>
+     <REPTEXT>Doc. No.</REPTEXT>
+     <SCRTEXT_S>Doc. No.</SCRTEXT_S>
+     <SCRTEXT_M>Document Number</SCRTEXT_M>
+     <SCRTEXT_L>Document Number</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZDE_DOCNUM_CTE</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0005</VERSION>
+      <TXTLINES>00004</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZDE_DOCNUM_CTE</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00005</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Kennzeichnet eine &lt;DS:GLOS.80E4B3EF8290D511BCC30800060D9C68&gt;Nota Fiscal</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;/&gt; in der SAP-Umgebung. Das System ordnet jeder ein- und ausgehenden No</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>ta Fiscal eine eigene Nummer zu. Diese Nummer wird intern von</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>verschiedenen Programmen verwendet.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZDE_DOCNUM_CTE</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0005</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00004</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZDE_DOCNUM_CTE</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00005</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Identifies a&lt;DS:GLOS.80E4B3EF8290D511BCC30800060D9C68&gt;nota fiscal&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>within the SAP environment. The system assigns a unique number to each</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>incoming and outgoing nota fiscal. This number is used internally by</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>various programs.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZDE_DOCNUM_CTE</OBJECT>
+      <LANGU>P</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0003</VERSION>
+      <TXTLINES>00003</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZDE_DOCNUM_CTE</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>P</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00003</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Identifica uma nota fiscal no ambiente da SAP. O sistema atribui um</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>número próprio a cada nota fiscal de saída e de entrada. Esse número</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>será utilizado internamente por vários programas.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
